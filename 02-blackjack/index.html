@@ -49,8 +49,11 @@
     <script src="assets/js/app.js"></script>
 
     <script>
+      // Inicializa el juego de Blackjack
+      const blackjack = initBlackjack();
+
       document.querySelector("#btnNuevoJuego").addEventListener("click", () => {
-        initBlackjack().nuevoJuego(); // Inicia un nuevo juego de Blackjack
+        blackjack.nuevoJuego(); // Inicia un nuevo juego de Blackjack
       });
     </script>
   </body>

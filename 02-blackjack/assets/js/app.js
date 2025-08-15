@@ -162,9 +162,9 @@ const initBlackjack = () => {
     turnoDeComputadora(puntosJugadores[0]); // Por ende iniciamos el turno de la computadora
   });
 
-  // btnNuevoJuego.addEventListener("click", () => {
-  //   inicializarJuego(); // Reinicia el juego
-  // });
+  btnNuevoJuego.addEventListener("click", () => {
+    inicializarJuego(); // Reinicia el juego
+  });
 
   return {
     nuevoJuego: inicializarJuego, // Exporta la función para reiniciar el juego
